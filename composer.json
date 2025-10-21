@@ -1,6 +1,6 @@
 {
 	"$schema": "https://getcomposer.org/schema.json",
-	"name": "app",
+	"name": "php-vite/app",
 	"description": "A modern PHP-Vite app, utilizing vite-plugin-php",
 	"version": "1.0.0",
 	"type": "project",
