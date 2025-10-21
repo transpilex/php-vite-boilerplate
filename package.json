@@ -1,0 +1,26 @@
+{
+	"name": "app",
+	"description": "A modern PHP-Vite app, utilizing vite-plugin-php",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc --noEmit && vite build",
+		"composer": "php ./bin/composer.phar"
+	},
+	"devDependencies": {
+		"@prettier/plugin-php": "^0.22.4",
+		"@types/node": "^22.13.4",
+		"prettier": "^3.5.1",
+		"vite": "^6.1.1",
+		"vite-imagetools": "^7.0.5",
+		"vite-plugin-ejs": "^1.7.0",
+		"vite-plugin-php": "^2.0.1",
+		"vite-plugin-static-copy": "^2.2.0",
+		"vite-plugin-svgr": "^4.3.0",
+		"vite-tsconfig-paths": "^5.1.4"
+	},
+	"trustedDependencies": [
+		"@parcel/watcher"
+	]
+}
