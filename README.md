@@ -161,4 +161,4 @@ You can customize configurations according to your project requirements. Key con
 -   **configs/routes.php**: Routing configuration.
 -   **configs/env.php**: Globally accessible constants for PHP.
 -   **.prettierrc**: Prettier configuration file for code formatting. Modify this file to customize code formatting rules.
--   **vite.config.ts**: Contains configuration settings for Vite, such as plugins, build options, and server settings.
+-   **vite.config.js**: Contains configuration settings for Vite, such as plugins, build options, and server settings.
