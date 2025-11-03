@@ -4,6 +4,9 @@ $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) 
 	$r->addRoute('GET', '/', function ($ROUTE_PARAMS) {
 		include('pages/index.php');
 	});
+
+    // add routes here
+
 });
 
 // Fetch method and URI from somewhere

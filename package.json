@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"@prettier/plugin-php": "^0.22.4",
 		"@types/node": "^22.13.4",
+		"path": "^0.12.7",
 		"prettier": "^3.5.1",
 		"vite": "^6.1.1",
 		"vite-imagetools": "^7.0.5",

@@ -6,6 +6,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { ViteEjsPlugin } from 'vite-plugin-ejs';
 import { imagetools } from 'vite-imagetools';
 import { existsSync } from 'node:fs';
+import path from 'path'
 
 export default defineConfig(({ command }) => {
 	const publicBasePath = '/php-vite/'; // Change if deploying under a nested public path. Needs to end with a /. See https://vitejs.dev/guide/build.html#public-base-path
@@ -67,6 +68,7 @@ export default defineConfig(({ command }) => {
 		resolve: {
 			alias: {
 				'~/': fileURLToPath(new URL('./src/', import.meta.url)),
+				'@/images': path.resolve(__dirname, './public/images'),
 			},
 		},
 		publicDir: command === 'build' ? 'raw' : 'public',
